@@ -1,5 +1,12 @@
 /*Gabriele Resconi 4AI stylesheet.css*/
 
+body {
+
+    background-image: url("imgs/homePage_bg.bmp");
+    background-repeat: no-repeat;
+    
+}
+
 div.menu-bar {
 
     background-color: black;
