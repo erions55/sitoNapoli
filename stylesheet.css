@@ -8,10 +8,11 @@ body {
 }
 
 
-.click-menu .box1,
-.click-menu .box1-hover,
-.click-menu .box1-open,
-.click-menu .box1-open-hover {
+/*menu verticale *****************************************/
+.click-menu .opz,
+.click-menu .opz-hover,
+.click-menu .opz-open,
+.click-menu .opz-open-hover {
     text-align: left;
     font-weight: bold;
     font-size: 20px;
@@ -39,13 +40,13 @@ body {
     text-decoration: none;
     white-space: nowrap;
 }
-.click-menu .box2 {
+.click-menu .case {
     border-color: #7B6139;
     border-width: 2px;
     border-style: none none solid solid;
     padding: 1px 0 2px 6px;
 }
-.click-menu .box2-hover {
+.click-menu .case-hover {
     border-color: #7B6139;
     border-width: 1px;
     border-style: none none solid solid;
@@ -55,8 +56,57 @@ body {
 .click-menu {
     background-color: #FFFF99;
     text-indent: 20px;
-    margin: 100px 100px 10px 20px; 
-    width: 100px;
-    height: 100px;
+    margin: 50px 50px 50px 20px; 
+    width: 10%;
+    height: 10%;
     border-style: solid;
+    position: absolute;
 }
+
+
+/*titolo HomePage *****************************************/
+div.titolo-homePage {
+    text-align: center;
+    width: 50%;
+    height: 20%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+h1.titolo-homePage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    background-color: yellow;
+}
+
+
+/*box1 : perche' Napoli *****************************************/
+div.box1 {
+    background-color: #fdff71;
+    display: block;
+    float: left;
+    padding: 10px;
+    margin: 100px 50% 10px 25%;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+}
+
+/*box1 : presentazione *****************************************/
+div.box2 {
+    background-color: #fdff71;
+    display: block;
+    float: right;
+    padding: 10px;
+    margin: 100px 25% 10px 25%;
+    width: 25%;
+    height: 50%;
+    position: absolute;
+}
+
+
+
+
+
+
